@@ -1,16 +1,6 @@
-/*  Construction of list of Approval ID's used for training testing and Scoring */
-/* List of all customers who have only taken one lease */
-/* Fraud indicator created */
-/*Seasoned indicator Created */
-/*warning!!! Leases too recent will appear as fraud and need time to miss payments before being considered as fraud */
 
--- Change 2/7/2017
---George Hoersting 
---change to score customers that have more than one lease
 
-/*
-G. Hoersting - Initial Release
-W. Twombly - 9/20/2016 - Added indexes */
+
 
         IF OBJECT_ID('tempdb..#lease_list') IS NOT NULL
             DROP TABLE #lease_list
