@@ -1,16 +1,4 @@
------------------------------------------------------------------------------------------------------------------------------------------
-/* Blitz Information table creation */
--- Data has is at the lease by day level, eg each row contains information for that lease on that day and is at an approvalID by day level of granularity\
--- Because of the the interval selected payemnts made that day will not be reflected in the reduction of a given lease's debt balance
--------------------------------------------------------------------------------------------------------------------------------------
 
-----------------------------------------------
-/* CHANGE LOG */
-/* created by: George Hoersting  3/27/2017*/
-
-
-
-----------------------------------------------
 
 
 declare @STARTdate  date
