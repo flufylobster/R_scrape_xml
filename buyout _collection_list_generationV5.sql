@@ -1,6 +1,4 @@
-----------------------------------------------------------------------
-/* create base set with leases having a buyout after '2016-01-01'*/
----------------------------------------------------------------------
+
 IF OBJECT_ID('tempdb..#buyout_dubles') is not null
 drop table #buyout_dubles
 	select 
